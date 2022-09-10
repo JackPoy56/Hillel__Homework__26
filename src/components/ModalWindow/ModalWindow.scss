@@ -1,0 +1,51 @@
+.wrapper {
+    position: fixed;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding-top: 109px;
+    z-index: 200;
+
+    background-color: #ffffff6b;
+}
+
+.ModalWindow {
+    position: fixed;
+    top: 115px;
+    left: 38%;
+    width: 250px;
+    padding: 15px;
+    background-color: #7eb57e;
+    border: 2px solid;
+    z-index: 500;
+
+    p {
+        margin: 0px 10px 10px 10px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        & button:last-child {
+            background-color: #2b7e2b;
+            &:hover {
+                background-color: #20a520;
+            }
+        }
+    }
+
+    button {
+        padding: 3px;
+        width: 100px;
+        cursor: pointer;
+        background-color: red;
+
+        &:hover {
+            background-color: rgb(243, 42, 42);
+        }
+    }
+}
