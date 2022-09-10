@@ -91,7 +91,7 @@ export default function EditUserContacts({ name, surname, phone, id }) {
                 </div>
             )}
             <div className="wrap">
-                <button type="button" onClick={() => saveEdit(id)}>Save</button>
+                <button type="button" onClick={() => editContact && saveEdit(id)}>Save</button>
                 <button type="button" onClick={() => getEditContact()}>Edit contact</button>
             </div>
         </div>
